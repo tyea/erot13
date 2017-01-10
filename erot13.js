@@ -1,3 +1,5 @@
+/* https://github.com/tyea/erot13 */
+
 function erot13_main(s)
 {
 	return (s ? s : this).split('').map(function(_) {
@@ -16,7 +18,7 @@ function erot13_onload(event)
 		var l = k.dataset.erot13;
 		if (l === undefined || l === null) continue;
 		var m = erot13_main(l);
-		k.href = "mailto:" + m;
+        if (k.tagName === "a" || k.tagName === "A") k.href = "mailto:" + m;
 		k.innerHTML = m;
 	}
 }
