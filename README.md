@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This small JavaScript sciprt will allow you to hide your email address from pesky spammers! Load it on your webpage and tag up email addresses with a specific class and you're ready to go.
+This small JavaScript script will allow you to hide your email address from pesky spammers! Load it on your webpage and tag up email addresses with a specific class and you're ready to go.
 
 ## Installation
 
