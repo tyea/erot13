@@ -13,9 +13,9 @@ Just include the `erot13.js` script somewhere on your webpage like so:
 ## Usage
 
 1. Create a `data-erot13` attribute to your `a` tag.
-2. Use rot13.com to ro13 your email address.
+2. Use rot13.com to rot13 your email address.
 3. Set the value of the `data-erot13` attribute to your obfuscated email address.
-4. If you want the inner HTML of that element to also be the email address, add a `data-erot13-override` attribute.
+4. If you want the inner HTML of that element to also be the email address, add a `data-erot13-overwrite` attribute.
 
 ## Gotchas
 
