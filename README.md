@@ -6,7 +6,7 @@ Erot13 is a small JavaScript script for hiding your email address from spammers.
 
 ## Installation
 
-Just include the `erot13.js` script somewhere on your webpage like so:
+Just include the `erot13.js` script somewhere on your webpage, like so:
 
 	<script src="/js/erot13.js"></script>
 
@@ -16,11 +16,6 @@ Just include the `erot13.js` script somewhere on your webpage like so:
 2. Use rot13.com to rot13 your email address.
 3. Set the value of the `data-erot13` attribute to your obfuscated email address.
 4. If you want the inner HTML of that element to also be the email address, add a `data-erot13-overwrite` attribute.
-
-## Gotchas
-
-* You don't need to add the `mailto:` prefix to your email address.
-* This script only works for `a` tags.
 
 ## Example
 
@@ -34,6 +29,11 @@ Here's an example of setting the `href` and inner HTML to an email address.
 	<p>My email address is <a data-erot13="sbb@rknzcyr.pbz" data-erot13-overwrite></a>.</p>
 	<p>My email address is <a href="mailto:foo@example.com">foo@example.com</a>.</p>
 
+It's worth noting:
+
+* You don't need to add the `mailto:` prefix to your email address.
+* This script only works for `a` tags.
+
 ## Support
 
 * IE9 and above
@@ -46,4 +46,4 @@ Here's an example of setting the `href` and inner HTML to an email address.
 
 ## Author
 
-Written by Tom Yeadon.
+Written by Tom Yeadon in January 2017.
