@@ -1,8 +1,8 @@
-# erot13
+# Erot13
 
-## Introduction
+## About
 
-This small JavaScript script will allow you to hide your email address from pesky spammers!
+Erot13 is a small JavaScript script for hiding your email address from spammers.
 
 ## Installation
 
