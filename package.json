@@ -1,8 +1,12 @@
 {
 	"name": "erot13",
+	"description": "A small JavaScript script for hiding your email address from spammers",
 	"version": "1.0.0",
-	"author": "Tom Yeadon <tg@tomyeadon.com>",
 	"license": "BSD-3-Clause",
-	"homepage": "https://github.com/tyea/erot13",
-	"description": "A small JavaScript script for hiding your email address from spammers"
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/tyea/erot13.git"
+	},
+	"author": "Tom Yeadon <tg@tomyeadon.com>",
+	"homepage": "https://github.com/tyea/erot13"
 }
