@@ -8,7 +8,7 @@ Erot13 is a small JavaScript script for hiding your email address from spammers.
 
 You can use Yarn as follows:
 
-	yarn add https://github.com/tyea/erot13.git
+	yarn add https://github.com/tyea/erot13.git#1.0.0
 
 ## Usage
 
